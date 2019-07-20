@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Cows &amp; Bulls</string>
+    <string name="dev_name">Developed by : Rhn19</string>
+
+    <string name="content_description_logo">Splash Screen Logo</string>
+    <string name="input_hint">Enter your number here</string>
+    <string name="player_one">Player 1</string>
+    <string name="player_two">Player 2</string>
+    <string name="next_button">Next</string>
+    <string name="start_button">Start</string>
+    <string name="check_button">Check</string>
+    <string name="end_button">End Turn</string>
+    <string name="display_num">Your Number : </string>
+    <string name="count_error">You can only guess once per turn!</string>
+    <string name="exit_button">Exit Game</string>
+    <string name="spinner_prompt">Select Difficulty</string>
+    <string name="no_selection">Please select difficulty!</string>
+    <string name="empty_text">Please enter a number!</string>
+    <string name="play_again">Play Again</string>
+    <string name="player_switch">Has the device been handed over to the next Player?</string>
+    <string name="not_played">You have not played your turn!</string>
+    <string name="switch_player_dialog">Switch Player</string>
+    <string name="show_instructions">Instructions</string>
+    <string name="show_about">About</string>
+
+    <string name="instructions"> The players each write a 4-digit secret number.
+        The digits must be all different. Then, in turn, the players try to guess their opponent\'s number
+        who gives the number of matches. If the matching digits are in their right positions, they are "bulls",
+        if in different positions, they are "cows".\n
+        Secret number: 4271\n
+        Opponent\'s try: 1234\n
+        Answer: 1 bull and 2 cows. (The bull is "2", the cows are "4" and "1".)</string>
+
+    <string name="about">Cows &amp; Bulls\n
+        v.1.0\n
+        Developed by : Rhn19\n
+        Student at PICT Computer Dept.\n
+        <a href = "https://github.com/rhn19/">GitHub/rhn19</a>\n
+        Splash Screen Designed by : Pratt\n
+    </string>
+
+    <string-array name="spinner_entries">
+        <item>4 Digits</item>
+        <item>5 Digits</item>
+        <item>6 Digits</item>
+        <item>7 Digits</item>
+        <item>8 Digits</item>
+        <item>9 Digits</item>
+        <item>10 Digits</item>
+    </string-array>
+</resources>
